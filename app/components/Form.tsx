@@ -2,6 +2,7 @@
 
 import { useRef } from "react";
 import { postEntry } from "../action";
+// @ts-ignore
 import { experimental_useFormStatus as useFormStatus } from "react-dom";
 
 export default function Form() {
